@@ -12,3 +12,6 @@ it wont work on github. to run you might wanna:
 - Done! Click on Extension button and Launch "Website Stats" Extension.
 
 # Screenshots
+![pageDiggerOpening](https://github.com/SohamKore/Page-Digger/assets/119067189/e6320bd3-ae04-4f57-85d2-c217c94d02f6)
+![CopyPage](https://github.com/SohamKore/Page-Digger/assets/119067189/97bbf065-763f-4477-a80e-613fee536f29)
+![SiteDigger](https://github.com/SohamKore/Page-Digger/assets/119067189/a65908b7-be2c-4e9f-b87e-ff2994a59092)
