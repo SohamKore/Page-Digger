@@ -1,0 +1,216 @@
+#copyButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #restartButton{
+    color: white;
+    background-color: black;
+    border: 2px solid #808080b0;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: 800;
+    padding: 5px 10px 5px 10px;
+    transition: .2s ease-in-out;
+  }
+  #restartButton:hover{
+    color: black;
+    transform: scale(1.1);
+    background-color: white;
+  }
+  #restartButton:active{
+    color: white;
+    transform: scale(1.1);
+    background-color: black;
+  }
+  .diggingSite{
+    margin: 0px 0px 10px 0px;
+    font-size: x-small;
+  }
+  
+  #searchInput{
+    width: 70%;
+  }
+
+  #searchButton{
+    background-color: black;
+    color: white;
+    text-shadow: 0px 0px 12px white;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+  }
+  #searchButton:hover{
+    transform: scale(1.05);
+    background-color: white;
+    box-shadow: 0px 0px 15px white;
+    color: black;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+  }
+  #searchButton:active{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 15px black;
+    border: 2px solid rgba(128, 128, 128, 0.352);
+  }
+
+  #searchSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+*{
+
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: #fffcec;
+padding: 0px !important;
+margin: 0px;
+min-width: 50vw !important;
+min-height: 100vh !important;
+}
+html{
+    min-width: 300px !important;
+    min-height: 100px !important;
+}
+
+
+#loading{
+    font-weight: 600;
+}
+
+
+
+
+.card {
+  transition: .2s ease-in-out;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #80808059;
+background-color: white;
+border-radius: 10px;
+box-shadow: 1px 1px 2px blue, -1px 1px 2px red;
+}
+.card:hover{
+  transform: scale(1.03);
+  box-shadow: 1px 1px 2px red, -1px 1px 2px blue;
+}
+#captchaBlock{
+  display: none;
+}
+iframe{
+  transition: 0s;
+  border: 1px solid #808080ad;
+box-shadow: 5px 5px 15px #808080ad,0px 0px 35px white;
+border-radius: 5px;
+height: 70vh;
+}
+.recaptcha-checkbox-border {
+background-color: #e10000 !important;
+}
+h3{
+  color: white;
+text-shadow: 0px 0px 15px white;
+}
+.captchaBlock{
+  display: block;
+padding: 10px;
+border: 2px solid #ff00006e;
+border-radius: 15px;
+background-color: #a700007a;
+}
+.headRow{
+  display: flex;
+background-color: black;
+align-items: center;
+padding: 10px;
+text-shadow: 0px 0px 10px #ffffff;
+justify-content: space-between;
+color: white;
+}
+.headCol{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  margin: 0;
+padding: 0;
+}
+.slogan{
+  padding: 0;
+  margin: 0;
+
+}
+.donateCol{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+align-content: center;
+flex-wrap: nowrap;
+}
+h5{
+  padding: 0;
+margin: 0;
+}
+i{
+  font-size: xx-large;
+margin: 0;
+padding: 0;
+}
+
+.donateBtn{
+  color: white;
+text-decoration: none;
+border:2px solid rgb(255 255 255 / 42%);
+padding: 3px;
+background-image: linear-gradient(69deg, black, dimgrey);
+/* background-color: black; */
+text-shadow: 0px 0px 10px #ffffff91;
+border-radius: 10px;
+transition: none;
+transition: .2s;
+animation: shake .5s  infinite linear;
+}
+
+.donateBtn:hover{
+  /* transition: 0s; */
+  background-image: none;
+  transform: scale(1.1);
+  color: black;
+border: none;
+background-color: white;
+box-shadow: 0px 0px 15px white;
+}
+.donateBtn:active{
+  background-image: none;
+  transform: scale(1.1);
+  color: black;
+border: 2px solid #001c31;
+background-color: white;
+box-shadow: 0px 0px 25px white;
+}
+
+.contentBlock{
+  padding: 10px;
+}
+@keyframes shake {
+0% {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.423);
+}
+100% {
+  text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.668), 0px 0px 50px rgba(255, 255, 255, 0.588);
+}
+}

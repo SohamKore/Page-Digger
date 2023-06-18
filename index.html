@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+
+  <title>Link Extractor</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div class="headRow">
+    <div class="headCol">
+      <h1>Site Digger</h1>
+      <p class="slogan">List all the pages of any site.</p>
+      <p class="diggingSite">Site:(Digging Site)</p>
+    </div>
+    <a class="donateBtn" href="#" >
+    <div class="donateCol">
+      <i class="fas fa-coffee"></i>
+       <h5>Donate</h5>
+  </div>
+</a>
+  </div>
+
+  <div class="contentBlock">
+  
+  <div id="captchaBlock" class="captchaBlock">
+
+    <h3><i class="fas fa-key"></i> Solve the Captcha and restart the extension to get full results.</h3> 
+    <button id="restartButton">Restart Extension</button> 
+    <iframe id="websiteIframe"  sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-top-navigation allow-modals allow-orientation-lock allow-pointer-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation allow-downloads" allow="geolocation; microphone; camera; midi; encrypted-media"></iframe>
+</div>
+
+<div id="searchSection">
+  <input type="text" id="searchInput" placeholder="Enter website URL to dig pages...">
+  <div class="row">
+  <label for="removeLinksCheckbox">Remove existing links</label>
+  <input type="checkbox" id="removeLinksCheckbox">
+</div>
+  <button id="searchButton">Search</button>
+
+</div>
+
+  <div id="loading" style="display: none;">Loading...</div>
+  <div id="errorContainer"></div>
+  <div id="linksContainer"></div>
+  <button id="copyButton">Copy Links</button>
+
+</div>
+</body>
+</html>
