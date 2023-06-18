@@ -1,7 +1,7 @@
 # Page-Digger
 🔎 An extension that helps you find pages and sources of a specific website, **digging** through all the online pages and listing them within the extension.
 
-# Preview / Run / View : https://sohamkore.github.io/Page-Digger/
+# Preview / Run / View : https://sohamkore.github.io/Page-Digger-Extension/
 
 it wont work on github. to run you might wanna:
 - Download the project
